@@ -10,6 +10,10 @@ import UIKit
 class UsersViewController: UIViewController {
     
     //MARK: - Properties
+    
+    var presenter: UsersPresenterProtocol?
+    
+    // MARK: - View
 
     private var usersView: UsersView? {
         guard isViewLoaded
@@ -35,5 +39,37 @@ class UsersViewController: UIViewController {
     //MARK: - Setups
 
 
+}
+
+// MARK: - UsersViewProtocol
+
+extension UsersViewController: UsersViewProtocol {
+    
+    func reload() {
+        presenter?.updateUsers()
+        usersView?.tableView.reloadData()
+    }
+}
+
+// MARK: - Actions
+
+extension UsersViewController {
+    
+    @objc
+    func saveUser() {
+        let userName: String = usersView?.textField.text ?? ""
+        presenter?.saveFullName(name: userName)
+        usersView?.textField.text = nil
+    }
+}
+
+// MARK: - Constants
+
+extension UsersViewController {
+    
+    enum Strings {
+        static let navigationTitle: String = "Users"
+        static let delete: String = "Delete"
+    }
 }
 

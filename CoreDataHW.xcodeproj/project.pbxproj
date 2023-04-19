@@ -22,6 +22,7 @@
 		167CC60A29EFF61F0088814C /* AssemblyModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167CC60929EFF61F0088814C /* AssemblyModuleBuilder.swift */; };
 		167CC60C29EFF6470088814C /* RouterModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167CC60B29EFF6470088814C /* RouterModule.swift */; };
 		167CC60E29EFF7240088814C /* UsersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167CC60D29EFF7240088814C /* UsersPresenter.swift */; };
+		167CC61029EFFB0B0088814C /* DetailUserInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167CC60F29EFFB0B0088814C /* DetailUserInfoPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		167CC60929EFF61F0088814C /* AssemblyModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyModuleBuilder.swift; sourceTree = "<group>"; };
 		167CC60B29EFF6470088814C /* RouterModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterModule.swift; sourceTree = "<group>"; };
 		167CC60D29EFF7240088814C /* UsersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersPresenter.swift; sourceTree = "<group>"; };
+		167CC60F29EFFB0B0088814C /* DetailUserInfoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserInfoPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 		16311F5F29EE993E00A3FA58 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				167CC60F29EFFB0B0088814C /* DetailUserInfoPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				167CC61029EFFB0B0088814C /* DetailUserInfoPresenter.swift in Sources */,
 				167CC60C29EFF6470088814C /* RouterModule.swift in Sources */,
 				167CC60E29EFF7240088814C /* UsersPresenter.swift in Sources */,
 				1674403329EFE8C50054A33C /* UserInfo+CoreDataProperties.swift in Sources */,
