@@ -107,10 +107,10 @@ extension DetailUsersViewController {
     
     @objc
     func chooseAvatar(sender: UITapGestureRecognizer) {
-        let galleryAction = UIAlertAction(title: Strings.alertTitleGallery,
+        let galleryAction = UIAlertAction(title: "Choose from gallery",
                                           style: .default,
                                           handler: addFromGallery)
-        let photoAction = UIAlertAction(title: Strings.alertTitlePhoto,
+        let photoAction = UIAlertAction(title: "Take photo",
                                         style: .default,
                                         handler: doNewPhoto)
         showActionSheet(actions: [galleryAction,
@@ -145,7 +145,7 @@ extension DetailUsersViewController: UIImagePickerControllerDelegate, UINavigati
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         guard let image = info[.editedImage] as? UIImage
         else {
-            fatalError("\(Strings.error)\(info)")
+            fatalError("Expected a dictionary containing an image, but was provided the following: \(info)")
         }
         imageData = image.pngData() as Data?
         deatilView?.photoImageView.image = image
@@ -170,20 +170,6 @@ extension DetailUsersViewController: UIImagePickerControllerDelegate, UINavigati
         present(picker, animated: true, completion: nil)
     }
 }
-
-// MARK: - Constants
-
-extension DetailUsersViewController {
-    
-    enum Strings {
-        static let navigationButtonSave: String = "Save"
-        static let navigationButtonEdit: String = "Edit"
-        static let alertTitleGallery: String = "Choose from gallery"
-        static let alertTitlePhoto: String = "Take photo"
-        static let error: String = "Expected a dictionary containing an image, but was provided the following: "
-    }
-}
-
 
 
 
