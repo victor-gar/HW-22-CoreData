@@ -19,6 +19,8 @@
 		1674403329EFE8C50054A33C /* UserInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1674403229EFE8C50054A33C /* UserInfo+CoreDataProperties.swift */; };
 		167CC60429EFEFEB0088814C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167CC60329EFEFEB0088814C /* Assets.xcassets */; };
 		167CC60729EFF01C0088814C /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 167CC60529EFF01C0088814C /* CoreDataModel.xcdatamodeld */; };
+		167CC60A29EFF61F0088814C /* AssemblyModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167CC60929EFF61F0088814C /* AssemblyModuleBuilder.swift */; };
+		167CC60C29EFF6470088814C /* RouterModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167CC60B29EFF6470088814C /* RouterModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		167CC5FF29EFEEC40088814C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		167CC60329EFEFEB0088814C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		167CC60629EFF01C0088814C /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		167CC60929EFF61F0088814C /* AssemblyModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyModuleBuilder.swift; sourceTree = "<group>"; };
+		167CC60B29EFF6470088814C /* RouterModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 		16311F5829EE98D600A3FA58 /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				167CC60B29EFF6470088814C /* RouterModule.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 		16311F5929EE98DA00A3FA58 /* AssemblyModule */ = {
 			isa = PBXGroup;
 			children = (
+				167CC60929EFF61F0088814C /* AssemblyModuleBuilder.swift */,
 			);
 			path = AssemblyModule;
 			sourceTree = "<group>";
@@ -287,12 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				167CC60C29EFF6470088814C /* RouterModule.swift in Sources */,
 				1674403329EFE8C50054A33C /* UserInfo+CoreDataProperties.swift in Sources */,
 				16311F6529EE9D9C00A3FA58 /* DetailUsersView.swift in Sources */,
 				16311F6829EE9DF800A3FA58 /* DetailUsersViewController.swift in Sources */,
 				1674403129EFE8B20054A33C /* UserInfo+CoreDataClass.swift in Sources */,
 				167CC60729EFF01C0088814C /* CoreDataModel.xcdatamodeld in Sources */,
 				16311F6229EE999600A3FA58 /* UsersView.swift in Sources */,
+				167CC60A29EFF61F0088814C /* AssemblyModuleBuilder.swift in Sources */,
 				1674402E29EFE73D0054A33C /* PersistenceStack.swift in Sources */,
 				16311F3F29ED428300A3FA58 /* UsersViewController.swift in Sources */,
 				16311F3B29ED428300A3FA58 /* AppDelegate.swift in Sources */,
