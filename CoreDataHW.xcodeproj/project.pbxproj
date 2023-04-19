@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160D03CF29F02D750049C488 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 160D03CE29F02D750049C488 /* README.md */; };
 		16311F3B29ED428300A3FA58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16311F3A29ED428300A3FA58 /* AppDelegate.swift */; };
 		16311F3F29ED428300A3FA58 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16311F3E29ED428300A3FA58 /* UsersViewController.swift */; };
 		16311F5629EE8D6900A3FA58 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 16311F5529EE8D6900A3FA58 /* SnapKit */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		160D03CE29F02D750049C488 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		16311F3729ED428300A3FA58 /* CoreDataHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16311F3A29ED428300A3FA58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16311F3E29ED428300A3FA58 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		16311F2E29ED428300A3FA58 = {
 			isa = PBXGroup;
 			children = (
+				160D03CE29F02D750049C488 /* README.md */,
 				16311F3929ED428300A3FA58 /* CoreDataHW */,
 				16311F3829ED428300A3FA58 /* Products */,
 			);
@@ -298,6 +301,7 @@
 			files = (
 				167CC61029EFFB0B0088814C /* DetailUserInfoPresenter.swift in Sources */,
 				167CC60C29EFF6470088814C /* RouterModule.swift in Sources */,
+				160D03CF29F02D750049C488 /* README.md in Sources */,
 				167CC60E29EFF7240088814C /* UsersPresenter.swift in Sources */,
 				1674403329EFE8C50054A33C /* UserInfo+CoreDataProperties.swift in Sources */,
 				16311F6529EE9D9C00A3FA58 /* DetailUsersView.swift in Sources */,
