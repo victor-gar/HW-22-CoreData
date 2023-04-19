@@ -81,6 +81,7 @@
 		16311F5229EE897B00A3FA58 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1674402C29EFE4B90054A33C /* CoreData */,
 				16311F5929EE98DA00A3FA58 /* AssemblyModule */,
 				16311F5829EE98D600A3FA58 /* Router */,
 				16311F5729EE98AE00A3FA58 /* Scene */,
@@ -185,6 +186,13 @@
 				16311F6429EE9D9C00A3FA58 /* DetailUsersView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		1674402C29EFE4B90054A33C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
