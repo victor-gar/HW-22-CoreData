@@ -27,7 +27,7 @@ class AssemblyModuleBuilder: AssemblyBuilderProtocol {
     
     func createUserInfoModule(router: RouterModule, userName: String) -> UIViewController {
         let view = DetailUsersViewController()
-        let presenter = DetailUserInfoPresenter(view: view,
+        let presenter = DetailUserInfoPresenter(view: view as! DetailUserInfoViewProtocol,
                                           router: router,
                                           userName: userName)
         view.presenter = presenter

@@ -6,12 +6,14 @@
 //
 
 import UIKit
+import SnapKit
+import UniformTypeIdentifiers
 
 class DetailUsersView: UIView {
     
     //MARK: - UI Elements
     
-    private lazy var photoImageView: UIImageView = {
+    lazy var photoImageView: UIImageView = {
         let imageView = UIImageView(image: UIImage(named: "image"))
         imageView.layer.cornerRadius = 30
         imageView.layer.masksToBounds = true
@@ -53,20 +55,21 @@ class DetailUsersView: UIView {
     private lazy var separatorViewSecond = createSeparatorViewLine()
     private lazy var separatorViewThird = createSeparatorViewLine()
 
-    private lazy var datePicker: UIDatePicker = {
+    lazy var datePicker: UIDatePicker = {
         var datePicker = UIDatePicker()
         datePicker.preferredDatePickerStyle = .compact
         datePicker.maximumDate = Date.now
         datePicker.datePickerMode = .date
-//        datePicker.isEnabled = false
+        datePicker.isEnabled = false
         return datePicker
     }()
     
-    private lazy var userNameTextField: UITextField = {
+    lazy var userNameTextField: UITextField = {
         let textField = UITextField()
         textField.borderStyle = .roundedRect
         textField.tintColor = .gray
         textField.backgroundColor = .systemGray6
+        textField.isEnabled = false
         return textField
     }()
     
@@ -79,10 +82,25 @@ class DetailUsersView: UIView {
         segmentedControl.setTitleTextAttributes(selectedAttribute, for: .selected)
         segmentedControl.setTitleTextAttributes(normalAttribute, for: .normal)
         segmentedControl.selectedSegmentIndex = 0
-//        segmentedControl.isEnabled = false
+        segmentedControl.isEnabled = false
         return segmentedControl
     }()
     
+    lazy var photoLibraryPicker: UIImagePickerController = {
+        let picker = UIImagePickerController()
+        picker.sourceType = .photoLibrary
+        picker.mediaTypes = [UTType.image.identifier]
+        picker.allowsEditing = true
+        return picker
+    }()
+    
+    lazy var photoCameraPicker: UIImagePickerController = {
+        let picker = UIImagePickerController()
+        picker.sourceType = .camera
+        picker.mediaTypes = [UTType.image.identifier]
+        picker.allowsEditing = true
+        return picker
+    }()
 
     //MARK: - Lifecycle
     
@@ -182,4 +200,37 @@ extension UIView {
         view.backgroundColor = .systemGray4
         return view
     }
+}
+
+
+extension UIViewController {
+    
+    func showActionSheet(title: String? = nil,
+                         message: String? = nil,
+                         showCancel: Bool = true,
+                         actions: [UIAlertAction] = [],
+                         from sourceView: UIView? = nil) {
+        let alert = UIAlertController(title: title,
+                                      message: message,
+                                      preferredStyle: .actionSheet)
+        for action in actions {
+            alert.addAction(action)
+        }
+        
+        if showCancel {
+            let cancelAction = UIAlertAction(title: "Cancel",
+                                             style: .cancel)
+            alert.addAction(cancelAction)
+        }
+        
+        if let sourceView = sourceView {
+            alert.popoverPresentationController?.sourceView = sourceView
+        } else {
+            alert.popoverPresentationController?.sourceView = view
+            alert.popoverPresentationController?.permittedArrowDirections = []
+        }
+
+        present(alert, animated: true, completion: nil)
+    }
+    
 }

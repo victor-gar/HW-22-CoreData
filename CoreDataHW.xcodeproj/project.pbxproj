@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		16311F3B29ED428300A3FA58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16311F3A29ED428300A3FA58 /* AppDelegate.swift */; };
-		16311F3D29ED428300A3FA58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16311F3C29ED428300A3FA58 /* SceneDelegate.swift */; };
 		16311F3F29ED428300A3FA58 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16311F3E29ED428300A3FA58 /* UsersViewController.swift */; };
 		16311F5629EE8D6900A3FA58 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 16311F5529EE8D6900A3FA58 /* SnapKit */; };
 		16311F6229EE999600A3FA58 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16311F6129EE999600A3FA58 /* UsersView.swift */; };
@@ -28,7 +27,6 @@
 /* Begin PBXFileReference section */
 		16311F3729ED428300A3FA58 /* CoreDataHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16311F3A29ED428300A3FA58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		16311F3C29ED428300A3FA58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		16311F3E29ED428300A3FA58 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		16311F6129EE999600A3FA58 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 		16311F6429EE9D9C00A3FA58 /* DetailUsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUsersView.swift; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				16311F3A29ED428300A3FA58 /* AppDelegate.swift */,
-				16311F3C29ED428300A3FA58 /* SceneDelegate.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -312,7 +309,6 @@
 				1674402E29EFE73D0054A33C /* PersistenceStack.swift in Sources */,
 				16311F3F29ED428300A3FA58 /* UsersViewController.swift in Sources */,
 				16311F3B29ED428300A3FA58 /* AppDelegate.swift in Sources */,
-				16311F3D29ED428300A3FA58 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
