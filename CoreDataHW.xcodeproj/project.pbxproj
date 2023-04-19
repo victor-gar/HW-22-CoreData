@@ -10,25 +10,31 @@
 		16311F3B29ED428300A3FA58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16311F3A29ED428300A3FA58 /* AppDelegate.swift */; };
 		16311F3D29ED428300A3FA58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16311F3C29ED428300A3FA58 /* SceneDelegate.swift */; };
 		16311F3F29ED428300A3FA58 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16311F3E29ED428300A3FA58 /* UsersViewController.swift */; };
-		16311F4529ED428300A3FA58 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16311F4329ED428300A3FA58 /* CoreData.xcdatamodeld */; };
-		16311F4729ED428500A3FA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16311F4629ED428500A3FA58 /* Assets.xcassets */; };
 		16311F5629EE8D6900A3FA58 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 16311F5529EE8D6900A3FA58 /* SnapKit */; };
 		16311F6229EE999600A3FA58 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16311F6129EE999600A3FA58 /* UsersView.swift */; };
 		16311F6529EE9D9C00A3FA58 /* DetailUsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16311F6429EE9D9C00A3FA58 /* DetailUsersView.swift */; };
 		16311F6829EE9DF800A3FA58 /* DetailUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16311F6729EE9DF800A3FA58 /* DetailUsersViewController.swift */; };
+		1674402E29EFE73D0054A33C /* PersistenceStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1674402D29EFE73D0054A33C /* PersistenceStack.swift */; };
+		1674403129EFE8B20054A33C /* UserInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1674403029EFE8B20054A33C /* UserInfo+CoreDataClass.swift */; };
+		1674403329EFE8C50054A33C /* UserInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1674403229EFE8C50054A33C /* UserInfo+CoreDataProperties.swift */; };
+		167CC60429EFEFEB0088814C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167CC60329EFEFEB0088814C /* Assets.xcassets */; };
+		167CC60729EFF01C0088814C /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 167CC60529EFF01C0088814C /* CoreDataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		16311F3729ED428300A3FA58 /* CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16311F3729ED428300A3FA58 /* CoreDataHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16311F3A29ED428300A3FA58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16311F3C29ED428300A3FA58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		16311F3E29ED428300A3FA58 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
-		16311F4429ED428300A3FA58 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
-		16311F4629ED428500A3FA58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		16311F4B29ED428500A3FA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16311F6129EE999600A3FA58 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 		16311F6429EE9D9C00A3FA58 /* DetailUsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUsersView.swift; sourceTree = "<group>"; };
 		16311F6729EE9DF800A3FA58 /* DetailUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUsersViewController.swift; sourceTree = "<group>"; };
+		1674402D29EFE73D0054A33C /* PersistenceStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceStack.swift; sourceTree = "<group>"; };
+		1674403029EFE8B20054A33C /* UserInfo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1674403229EFE8C50054A33C /* UserInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		167CC5FF29EFEEC40088814C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167CC60329EFEFEB0088814C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		167CC60629EFF01C0088814C /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +52,7 @@
 		16311F2E29ED428300A3FA58 = {
 			isa = PBXGroup;
 			children = (
-				16311F3929ED428300A3FA58 /* CoreData */,
+				16311F3929ED428300A3FA58 /* CoreDataHW */,
 				16311F3829ED428300A3FA58 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,26 +60,26 @@
 		16311F3829ED428300A3FA58 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16311F3729ED428300A3FA58 /* CoreData.app */,
+				16311F3729ED428300A3FA58 /* CoreDataHW.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		16311F3929ED428300A3FA58 /* CoreData */ = {
+		16311F3929ED428300A3FA58 /* CoreDataHW */ = {
 			isa = PBXGroup;
 			children = (
 				16311F5229EE897B00A3FA58 /* Sources */,
 				16311F5129EE896E00A3FA58 /* Resources */,
 			);
-			path = CoreData;
+			path = CoreDataHW;
 			sourceTree = "<group>";
 		};
 		16311F5129EE896E00A3FA58 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				16311F4629ED428500A3FA58 /* Assets.xcassets */,
-				16311F4B29ED428500A3FA58 /* Info.plist */,
-				16311F4329ED428300A3FA58 /* CoreData.xcdatamodeld */,
+				167CC60529EFF01C0088814C /* CoreDataModel.xcdatamodeld */,
+				167CC60329EFEFEB0088814C /* Assets.xcassets */,
+				167CC5FF29EFEEC40088814C /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -191,16 +197,27 @@
 		1674402C29EFE4B90054A33C /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				1674402F29EFE89D0054A33C /* Model */,
+				1674402D29EFE73D0054A33C /* PersistenceStack.swift */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		1674402F29EFE89D0054A33C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1674403029EFE8B20054A33C /* UserInfo+CoreDataClass.swift */,
+				1674403229EFE8C50054A33C /* UserInfo+CoreDataProperties.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		16311F3629ED428300A3FA58 /* CoreData */ = {
+		16311F3629ED428300A3FA58 /* CoreDataHW */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16311F4E29ED428500A3FA58 /* Build configuration list for PBXNativeTarget "CoreData" */;
+			buildConfigurationList = 16311F4E29ED428500A3FA58 /* Build configuration list for PBXNativeTarget "CoreDataHW" */;
 			buildPhases = (
 				16311F3329ED428300A3FA58 /* Sources */,
 				16311F3429ED428300A3FA58 /* Frameworks */,
@@ -210,12 +227,12 @@
 			);
 			dependencies = (
 			);
-			name = CoreData;
+			name = CoreDataHW;
 			packageProductDependencies = (
 				16311F5529EE8D6900A3FA58 /* SnapKit */,
 			);
 			productName = CoreData;
-			productReference = 16311F3729ED428300A3FA58 /* CoreData.app */;
+			productReference = 16311F3729ED428300A3FA58 /* CoreDataHW.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -233,7 +250,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 16311F3229ED428300A3FA58 /* Build configuration list for PBXProject "CoreData" */;
+			buildConfigurationList = 16311F3229ED428300A3FA58 /* Build configuration list for PBXProject "CoreDataHW" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -249,7 +266,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16311F3629ED428300A3FA58 /* CoreData */,
+				16311F3629ED428300A3FA58 /* CoreDataHW */,
 			);
 		};
 /* End PBXProject section */
@@ -259,7 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16311F4729ED428500A3FA58 /* Assets.xcassets in Resources */,
+				167CC60429EFEFEB0088814C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,10 +287,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1674403329EFE8C50054A33C /* UserInfo+CoreDataProperties.swift in Sources */,
 				16311F6529EE9D9C00A3FA58 /* DetailUsersView.swift in Sources */,
 				16311F6829EE9DF800A3FA58 /* DetailUsersViewController.swift in Sources */,
+				1674403129EFE8B20054A33C /* UserInfo+CoreDataClass.swift in Sources */,
+				167CC60729EFF01C0088814C /* CoreDataModel.xcdatamodeld in Sources */,
 				16311F6229EE999600A3FA58 /* UsersView.swift in Sources */,
-				16311F4529ED428300A3FA58 /* CoreData.xcdatamodeld in Sources */,
+				1674402E29EFE73D0054A33C /* PersistenceStack.swift in Sources */,
 				16311F3F29ED428300A3FA58 /* UsersViewController.swift in Sources */,
 				16311F3B29ED428300A3FA58 /* AppDelegate.swift in Sources */,
 				16311F3D29ED428300A3FA58 /* SceneDelegate.swift in Sources */,
@@ -406,7 +426,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LLVUWV97ZX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CoreData/Resources/Info.plist;
+				INFOPLIST_FILE = CoreDataHW/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -433,7 +453,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LLVUWV97ZX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CoreData/Resources/Info.plist;
+				INFOPLIST_FILE = CoreDataHW/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -454,7 +474,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16311F3229ED428300A3FA58 /* Build configuration list for PBXProject "CoreData" */ = {
+		16311F3229ED428300A3FA58 /* Build configuration list for PBXProject "CoreDataHW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16311F4C29ED428500A3FA58 /* Debug */,
@@ -463,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16311F4E29ED428500A3FA58 /* Build configuration list for PBXNativeTarget "CoreData" */ = {
+		16311F4E29ED428500A3FA58 /* Build configuration list for PBXNativeTarget "CoreDataHW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16311F4F29ED428500A3FA58 /* Debug */,
@@ -494,13 +514,13 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		16311F4329ED428300A3FA58 /* CoreData.xcdatamodeld */ = {
+		167CC60529EFF01C0088814C /* CoreDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				16311F4429ED428300A3FA58 /* CoreData.xcdatamodel */,
+				167CC60629EFF01C0088814C /* CoreDataModel.xcdatamodel */,
 			);
-			currentVersion = 16311F4429ED428300A3FA58 /* CoreData.xcdatamodel */;
-			path = CoreData.xcdatamodeld;
+			currentVersion = 167CC60629EFF01C0088814C /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
