@@ -12,6 +12,9 @@ import UIKit
 class DetailUsersViewController: UIViewController {
     
     //MARK: - Properties
+    var presenter: DetailUserInfoPresenterProtocol?
+
+    // MARK: - View
 
     private var deatilView: DetailUsersView? {
         guard isViewLoaded
@@ -35,3 +38,10 @@ class DetailUsersViewController: UIViewController {
 
 
 }
+
+// MARK: - DetailUserInfoViewProtocol
+
+
+
+
+
