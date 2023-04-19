@@ -21,6 +21,7 @@
 		167CC60729EFF01C0088814C /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 167CC60529EFF01C0088814C /* CoreDataModel.xcdatamodeld */; };
 		167CC60A29EFF61F0088814C /* AssemblyModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167CC60929EFF61F0088814C /* AssemblyModuleBuilder.swift */; };
 		167CC60C29EFF6470088814C /* RouterModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167CC60B29EFF6470088814C /* RouterModule.swift */; };
+		167CC60E29EFF7240088814C /* UsersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167CC60D29EFF7240088814C /* UsersPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		167CC60629EFF01C0088814C /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
 		167CC60929EFF61F0088814C /* AssemblyModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyModuleBuilder.swift; sourceTree = "<group>"; };
 		167CC60B29EFF6470088814C /* RouterModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterModule.swift; sourceTree = "<group>"; };
+		167CC60D29EFF7240088814C /* UsersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 		16311F5C29EE992600A3FA58 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				167CC60D29EFF7240088814C /* UsersPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				167CC60C29EFF6470088814C /* RouterModule.swift in Sources */,
+				167CC60E29EFF7240088814C /* UsersPresenter.swift in Sources */,
 				1674403329EFE8C50054A33C /* UserInfo+CoreDataProperties.swift in Sources */,
 				16311F6529EE9D9C00A3FA58 /* DetailUsersView.swift in Sources */,
 				16311F6829EE9DF800A3FA58 /* DetailUsersViewController.swift in Sources */,
